@@ -1,0 +1,213 @@
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.filmeEmDEstaque .card:hover{
+    background-color: rosybrown;
+}
+
+#bannerDiretores{
+    max-width: 800px;
+}
+
+#bannerDiretores li{
+    background-color: black;
+}
+
+.redeSocial{
+    font-size: 40px;
+
+
+}
+
+
+.redeSocial a{
+    color: rgb(17, 16, 16);
+}
+.redeSocial a:hover{
+    color: blueviolet;
+
+}
+
+.faleConosco p{
+    font-size: 18px;
+    
+}
+.faleConosco faleConosco{
+    font-size: 18px;
+   
+}
+
+.card img{
+
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius:90px;
+}
+
+
+.card-body{
+    padding: 2rem;
+    border-radius: 90px;
+}
+
+.card-body h5{
+    font-size: 1.2rem;
+    font-weight: 400;
+    border-radius: 90px;
+}
+
+.card-body p{
+    opacity: .7;
+    border-radius: 90px;
+}
+.card{
+    background: #fff;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    box-shadow: 4px 4px 10px rgba(0,0,0,.1);
+    border-radius: 90px;
+}
+
+.moveis img{
+     width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: .5rem .5rem 0 0;
+
+}
+.atoresPopulares :hover{
+    background-color: lightcoral;
+
+}
+
+.container{
+
+
+}
+.adm{
+    background-color: darkslategrey;
+}
+
+.adm main{
+    background-color: aliceblue;
+    min-height: 500px;
+}
+.opcoes i{
+    font-size: 60px;
+    width: 100%;
+
+}
+.opcoes p{
+    font-size: 24px;
+}
+.opcoes a{
+    text-decoration: none;
+
+}
+.opcoes a:hover{
+    color: chocolate;
+}
+.opcoes:hover{
+    border: 5px inset lightgrey;
+    border-radius: 10px;
+    background-color: #fafafa;
+}
+.opcoes{
+    border: 5px inset transparent;
+
+}
+.menuADm{
+    background-color: black;
+    text-align: right;
+    padding: 0px;
+}
+.menuADm a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #eeeeee;
+
+}
+.menuADm a:hover{
+    color: orangered;
+
+}
+.menuADm li{
+    list-style: none;
+    padding: 12px;
+    border-bottom: 2px solid gray;
+}
+.menuADm li:hover{
+    border-bottom: 2px solid red;
+    background-color: lightgrey;
+}
+.menuADm i{
+    font-size: 24px;
+    padding-left:20px ;
+}
+.menuADm li a{
+    display: block;
+}
+.row{
+    margin-right: 0;
+    margin-left: 0;
+    border-radius: 190px;
+}
+
+.intensCadastrados{
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 40px;
+}
+.intensCadastrados:hover{
+    background-color: darkgray;
+}
+
+.figura{
+    width: 40px;
+    height: 40px;
+}
+.bgs{
+    background-color: rgb(162, 163, 162);
+}
+.movel{
+    display: flex;
+    justify-content: center;
+
+}
+.preco{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    justify-content: space-around;
+}
+.todo{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    border: 1px solid gray;
+    margin-left: 15px;
+    border-radius: 90px;
+    background-color: rgb(200, 202, 202);
+}
+.price{
+    font-size:  24px;
+    color: green;
+}
+.grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+   
+    
+}
+.contato{
+    color: white;
+    font-size: 10px;
+}
+.contato a{
+    color: white;
+}
